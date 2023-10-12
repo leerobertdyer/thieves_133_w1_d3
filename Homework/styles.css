@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 11px;
+    margin-top: 7px;
+    margin-right: 3px;
+}
+
+main {
+
+}
+
+form {
+    border: rgba(128, 128, 128, 0.339) solid 1px;
+    border-radius: 7px;
+    padding: 29px;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 13px;
+    margin-top: -10px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 99%;
+    height: 27px;
+    border-radius: 3px;
+    border: rgba(128, 128, 128, 0.601) solid 1px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 99%;
+    background-color: #fbdb50;
+    color: black;
+    font-size: 13px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid #f0c14b 1px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #d5ab40;
+}
+
+p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color:#0066c0;
+}
+
+.myP {
+    text-decoration: none;
+    margin-left: -40px;
+    font-size: 12px;
+    color:#0066c0;
+}
+
+li::before {
+    content: "▶"; 
+    padding-right: 8px;
+    color: gray; 
+    font-size: 12px;
+  }
+
+  #buying {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+
+  #business {
+    font-size: 13px;
+  }
+
+  .new {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.586);
+    font-size: 11px;
+  }
+
+  hr {
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.586);
+    width:75px;
+    height: .7px;
+  }
+
+  .myCol {
+    margin-top: -22px;
+    font-size: 12px;
+  }
+
+  #account {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: solid 1px rgba(0, 0, 0, 0.365);
+    width: 350px;
+    margin-bottom: 29px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    border-top: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, white 5%, #00000041 51%, white 95%);
+    background: linear-gradient(to bottom, rgba(194, 191, 191, 0.139) 0%, white 70%);
+    height: 300px;
+}
+
+
+.finalDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.iknewtherewouldbeanotherdiv {
+    display: flex;
+    gap: 50px;
+    font-size: 10px;
+    margin-top: 20px;
+}

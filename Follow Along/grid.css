@@ -1,0 +1,27 @@
+.container {  display: grid;
+    grid-template-columns: 0.2fr 1fr 1.8fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "SideBar Mid-Bar Top-Square"
+      "SideBar Mid-Bar Bottom-Rect"
+      "SideBar Mid-Bar Bottom-Rect";
+  }
+  
+  .SideBar { 
+    grid-area: SideBar; 
+    background-color: red;    
+}
+
+  .Mid-Bar { 
+    grid-area: Mid-Bar;
+    background-color:aquamarine; 
+}
+  
+  .Top-Square { 
+    grid-area: Top-Square; 
+}
+  
+  .Bottom-Rect { grid-area: Bottom-Rect; }
+  
